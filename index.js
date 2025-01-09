@@ -6,6 +6,8 @@ export const sum = (a, b) => {
 
 const word = generate();
 const word2 = generate();
+const myVar='test'; // Fehlerhafte Formatierung
+
 console.log(
   `Hello!!! 
   The ${chalk.redBright('random word')} of today is: ${chalk.bgRed(word)}. 
